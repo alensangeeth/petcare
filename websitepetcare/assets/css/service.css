@@ -1,0 +1,66 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px; /* Space between the cards */
+    justify-content: flex-start; /* Aligns cards to the left */
+}
+
+.card {
+    background-color: white;
+    width: 300px; /* Card width */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.card img {
+    width: 100%; /* Make image fit the card width */
+    height: 150px;
+    object-fit: cover; /* Ensures the image covers the space without distortion */
+    border-radius: 8px;
+}
+
+.card h2 {
+    margin: 15px 0 10px;
+    color: #333;
+}
+
+.card p {
+    color: #555;
+}
+
+.button-container {
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #45a049;
+}
+
+.button.delete-btn {
+    background-color: #f44336;
+}
+
+.button.delete-btn:hover {
+    background-color: #d32f2f;
+}
