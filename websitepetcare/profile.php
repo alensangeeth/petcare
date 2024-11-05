@@ -85,19 +85,17 @@ if (isset($_SESSION['logged']))
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                        <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            
                                             <li><a href="petview.php">Pet</a></li>
-                                               
+                                            <li><a href="about.php">About</a></li>  
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="logout.php" class="header-btn">Logout</a>
+                                    <a href="index.html" class="header-btn">Logout</a>
                                 </div>
                             </div>
                         </div>   
