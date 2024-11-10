@@ -11,7 +11,7 @@ $result = $conn->query($query);
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Contact </title>
+    <title>Pet View </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -64,14 +64,12 @@ $result = $conn->query($query);
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                        <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            
                                             <li><a href="petview.php">Pet</a></li>
-                                               
+                                            <li><a href="about.php">About</a></li> 
                                         </ul>
                                     </nav>
                                 </div>
@@ -92,17 +90,17 @@ $result = $conn->query($query);
     </header>
     <main> 
         <!-- Hero Area Start -->
-        <div class="slider-area2 slider-height2 d-flex align-items-center">
+         <div class="slider-area2 slider-transparent d-flex align-items-center"> 
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center pt-50">
-                            <h2>Pet</h2>
+                           <!-- <h2>Pet</h2> -->
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> 
         <!-- Hero Area End -->
         <!--? Our Services Start -->
         <div class="our-services section-padding50">
@@ -133,7 +131,7 @@ $result = $conn->query($query);
                     <p>Pet Rate: <?php echo $row['rate']; ?></p>
                     <p>About Pet: <?php echo $row['description']; ?></p>
                     <br>
-                    <a href="petbooking.php?id=<?php echo $row['id']; ?>" class="button">Book The Pet</a>
+                    <a href="petbook.php?id=<?php echo $row['id']; ?>" class="button">Book The Pet</a>
                    
                 </div>
             </div>
@@ -179,9 +177,7 @@ $result = $conn->query($query);
                                 <ul>
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About Us</a></li>
-                                    <li><a href="services.php">Services</a></li>
-                                    <li><a href="#">Cases</a></li>
-                                    <li><a href="contact.php">  Contact Us</a></li>
+                                    <li><a href="service.php">Services</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -191,9 +187,9 @@ $result = $conn->query($query);
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">pet Broading</a></li>
-                                    <li><a href="#">pet Treatment</a></li>
-                                    <li><a href="#">Vaccinations</a></li>
+                                    <li><a href="service.php">Grooming</a></li>
+                                    <li><a href="service.php">Pet Boarding</a></li>
+                                    <li><a href="service.php"> Pet Vaccination</a></li>
                                 </ul>
                             </div>
                         </div>
@@ -205,7 +201,7 @@ $result = $conn->query($query);
                                 <ul>
                                  <li><a href="#">+91 8590725305</a></li>
                                  <li><a href="#"> petcare@gmail.com</a></li>
-                                 <li><a href="#">Thrissur, Kerala</a></li>
+                                 <li><a href="#">Ernakulam, Kerala</a></li>
                              </ul>
                             </div>
                         </div>

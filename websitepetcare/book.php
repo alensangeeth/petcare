@@ -3,21 +3,11 @@ include "dbconnect.php";
 
 $petname = $_POST['petname'];
 $breed = $_POST['breed'];
-$weight = $_POST['weight'];
-$age = $_POST['age'];
-$description = $_POST['description'];
-$rate = $_POST['rate'];
 $name = $_POST['name'];
-$phone = $_POST['phone'];
-$address = $_POST['address'];
 $email = $_POST['email'];
-$useraddress = $_POST['useraddress'];
-$userphone = $_POST['userphone'];
-$userdescription = $_POST['userdescription'];
-
-
-$sql = "INSERT INTO book (petname, breed, weight, age, description, rate, name, phone,address, email, useraddress,userphone, userdescription) 
-VALUES ('$petname', '$breed', '$weight', '$age', '$description', '$rate', '$name', '$phone', '$address', '$email', '$useraddress', '$userphone', '$userdescription')";
+$phone = $_POST['phone'];
+$sql = "INSERT INTO book (petname, breed, name, email, userphone) 
+VALUES ('$petname', '$breed', '$name', '$email', '$phone')";
 $result=mysqli_query($conn,$sql);
 
 if($result){

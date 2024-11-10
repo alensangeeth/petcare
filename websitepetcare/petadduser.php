@@ -65,20 +65,18 @@ $result = $conn->query($query);
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                        <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                           
                                             <li><a href="petview.php">Pet</a></li>
-                                                
+                                            <li><a href="about.php">About</a></li>   
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="#" class="header-btn">Logout</a>
+                                    <a href="index.html" class="header-btn">Logout</a>
                                 </div>
                             </div>
                         </div>   
@@ -220,11 +218,11 @@ $result = $conn->query($query);
                          <div class="single-footer-caption mb-30">
                               <!-- logo -->
                              <div class="footer-logo mb-25">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                 <a href="home.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p>Lorem ipsum dolor sit amet, adipiscing elit, sed do eiusmod tempor elit. </p>
+                                     <p>WE Care For Your Pets. </p>
                                 </div>
                              </div>
                              <!-- social -->
@@ -242,12 +240,10 @@ $result = $conn->query($query);
                             <div class="footer-tittle">
                                 <h4>Company</h4>
                                 <ul>
-                                    <li><a href="index.html">Home</a></li>
-                                    <li><a href="about.html">About Us</a></li>
-                                    <li><a href="single-blog.html">Services</a></li>
-                                    <li><a href="contact.html">  Contact Us</a></li>
-                                  
-                                    <li><a href="profile.php">Profile</a></li>
+                                    <li><a href="home.php">Home</a></li>
+                                    <li><a href="about.php">About Us</a></li>
+                                    <li><a href="service.php">Services</a></li>
+                                    
 
                                 </ul>
                             </div>
@@ -258,11 +254,10 @@ $result = $conn->query($query);
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">Commercial Cleaning</a></li>
-                                    <li><a href="#">Office Cleaning</a></li>
-                                    <li><a href="#">Building Cleaning</a></li>
-                                    <li><a href="#">Floor Cleaning</a></li>
-                                    <li><a href="#">Apartment Cleaning</a></li>
+                                    <li><a href="service.php">Grooming</a></li>
+                                    <li><a href="service.php">Pet Boarding</a></li>
+                                    <li><a href="service.php">Pet Vaccination</a></li>
+                                   
                                 </ul>
                             </div>
                         </div>
@@ -272,9 +267,9 @@ $result = $conn->query($query);
                             <div class="footer-tittle">
                                 <h4>Get in Touch</h4>
                                 <ul>
-                                 <li><a href="#">152-515-6565</a></li>
-                                 <li><a href="#"> Demomail@gmail.com</a></li>
-                                 <li><a href="#">New Orleans, USA</a></li>
+                                 <li><a href="#">+91 8590725305</a></li>
+                                 <li><a href="#"> petcare@gmail.com</a></li>
+                                 <li><a href="#">Ernakulam, Kerala</a></li>
                              </ul>
                             </div>
                         </div>
@@ -289,9 +284,9 @@ $result = $conn->query($query);
                      <div class="row d-flex align-items-center">
                          <div class="col-xl-12 ">
                              <div class="footer-copy-right text-center">
-                                 <p><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i class="fa fa-heart" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a>
-  <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --></p>
+                                 
+  Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved </a>
+  </p>
                              </div>
                          </div>
                      </div>

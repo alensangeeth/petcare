@@ -33,7 +33,7 @@ if (isset($_SESSION['logged']))
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Contact </title>
+    <title>Profile </title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="manifest" href="site.webmanifest">
@@ -85,19 +85,17 @@ if (isset($_SESSION['logged']))
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                        <li><a href="index.php">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            
                                             <li><a href="petview.php">Pet</a></li>
-                                               
+                                            <li><a href="about.php">About</a></li>  
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="logout.php" class="header-btn">Logout</a>
+                                    <a href="index.html" class="header-btn">Logout</a>
                                 </div>
                             </div>
                         </div>   
@@ -113,12 +111,12 @@ if (isset($_SESSION['logged']))
     </header>
     <main> 
         <!-- Hero Area Start -->
-        <div class="slider-area2 slider-height2 d-flex align-items-center">
+        <div class="slider-area2 slider-transparent d-flex align-items-center">
             <div class="container">
                 <div class="row">
                     <div class="col-xl-12">
                         <div class="hero-cap text-center pt-50">
-                            <h2>Profile</h2>
+                            <!-- <h2>Profile</h2> -->
                         </div>
                     </div>
                 </div>

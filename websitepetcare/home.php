@@ -51,7 +51,7 @@ $em=$_SESSION['logged'];
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="home.php"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
@@ -61,19 +61,18 @@ $em=$_SESSION['logged'];
                                     <nav> 
                                         <ul id="navigation">
                                         <li><a href="home.php">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
-                                            <li><a href="services.php">Services</a></li>
-                                            <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
+                                            <li><a href="service.php">Services</a></li>
+                                            
                                             <li><a href="petview.php">Pet</a></li>
+                                            <li><a href="about.php">About</a></li>
                                                 
                                             </li>
                                         </ul>
                                     </nav>
                                 </div>
                                 <div class="header-right-btn f-right d-none d-lg-block ml-30">
-                                    <a href="#" class="header-btn">Logout</a>
+                                    <a href="index.html" class="header-btn">Logout</a>
                                 </div>
                             </div>
                         </div>   
@@ -92,7 +91,7 @@ $em=$_SESSION['logged'];
         <div class="slider-area">
             <!-- <div class="slider-active dot-style"> -->
                 <!-- Slider Single -->
-                <div class="single-slider d-flex align-items-center slider-height">
+                 <div class="single-slider d-flex align-items-center slider-height"> 
                     <div class="container">
                         <div class="row align-items-center">
                             <div class="col-xl-7 col-lg-8 col-md-10 ">
@@ -219,33 +218,33 @@ $em=$_SESSION['logged'];
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/alen.jpg" alt="">
+                                <img src="uploads/alen.jpg" alt="">
                             </div>
                             <div class="team-caption">
-                                <span>Alen.K.Sangeeth</span>
-                                <h3><a href="#">Doctor</a></h3>
+                                <span>Alen K Sangeeth</span>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/athul.png" alt="">
+                                <img src="uploads/athul.png" alt="">
                             </div>
                             <div class="team-caption">
                                 <span>Athul</span>
-                                <h3><a href="#">Doctor</a></h3>
+                                
                             </div>
                         </div>
                     </div>
                     <div class="col-xl-4 col-lg-4 col-md-6 col-sm-">
                         <div class="single-team mb-30">
                             <div class="team-img">
-                                <img src="assets/img/gallery/alex.jpeg" alt="">
+                                <img src="uploads/alex.jpeg" alt="">
                             </div>
                             <div class="team-caption">
                                 <span>Alex Rijo</span>
-                                <h3><a href="#">Doctor</a></h3>
+                                
                             </div>
                         </div>
                     </div>
@@ -263,11 +262,11 @@ $em=$_SESSION['logged'];
                          <div class="single-footer-caption mb-30">
                               <!-- logo -->
                              <div class="footer-logo mb-25">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                 <a href="home.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p>WE Care For Your Dogs. </p>
+                                     <p>WE Care For Your Pets. </p>
                                 </div>
                              </div>
                              <!-- social -->
@@ -288,9 +287,7 @@ $em=$_SESSION['logged'];
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="services.php">Services</a></li>
-                                    <li><a href="contact.php">  Contact Us</a></li>
-                                  
-                                    <li><a href="profile.php">Profile</a></li>
+
 
                                 </ul>
                             </div>
@@ -301,9 +298,9 @@ $em=$_SESSION['logged'];
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">Pet Broading</a></li>
-                                    <li><a href="#">Pet Treatment</a></li>
-                                    <li><a href="#">Pet Vaccination</a></li>
+                                    <li><a href="services.php">Grooming</a></li>
+                                    <li><a href="services.php">Pet Boarding</a></li>
+                                    <li><a href="services.php">Pet Vaccination</a></li>
                                 </ul>
                             </div>
                         </div>

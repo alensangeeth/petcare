@@ -54,7 +54,7 @@ $result = $conn->query($query);
                         <!-- Logo -->
                         <div class="col-xl-2 col-lg-2 col-md-1">
                             <div class="logo">
-                                <a href="index.html"><img src="assets/img/logo/logo.png" alt=""></a>
+                                <a href="home.php"><img src="assets/img/logo/logo.png" alt=""></a>
                             </div>
                         </div>
                         <div class="col-xl-10 col-lg-10 col-md-10">
@@ -63,14 +63,12 @@ $result = $conn->query($query);
                                 <div class="main-menu f-right d-none d-lg-block">
                                     <nav> 
                                         <ul id="navigation">
-                                        <li><a href="index.html">Home</a></li>
-                                            <li><a href="about.php">About</a></li>
+                                        <li><a href="home.php">Home</a></li>
+                                        <li><a href="profile.php">Profile</a></li>
                                             <li><a href="services.php">Services</a></li>
                                             <li><a href="doctor.php">Doctors</a></li>
-                                            <li><a href="profile.php">Profile</a></li>
-                                            <li><a href="contact.php">Contact</a></li>
                                             <li><a href="petview.php">Pet</a></li>
-                                               
+                                            <li><a href="about.php">About</a></li>
                                         </ul>
                                     </nav>
                                 </div>
@@ -143,11 +141,11 @@ $result = $conn->query($query);
                          <div class="single-footer-caption mb-30">
                               <!-- logo -->
                              <div class="footer-logo mb-25">
-                                 <a href="index.html"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
+                                 <a href="home.php"><img src="assets/img/logo/logo2_footer.png" alt=""></a>
                              </div>
                              <div class="footer-tittle">
                                  <div class="footer-pera">
-                                     <p>WE Care For Your Dogs. </p>
+                                     <p>WE Care For Your Pets. </p>
                                 </div>
                              </div>
                              <!-- social -->
@@ -168,8 +166,7 @@ $result = $conn->query($query);
                                     <li><a href="home.php">Home</a></li>
                                     <li><a href="about.php">About Us</a></li>
                                     <li><a href="services.php">Services</a></li>
-                                    <li><a href="#">Cases</a></li>
-                                    <li><a href="contact.php">  Contact Us</a></li>
+                                    
                                 </ul>
                             </div>
                         </div>
@@ -179,9 +176,9 @@ $result = $conn->query($query);
                             <div class="footer-tittle">
                                 <h4>Services</h4>
                                 <ul>
-                                    <li><a href="#">pet Broading</a></li>
-                                    <li><a href="#">pet Treatment</a></li>
-                                    <li><a href="#">vaccinations</a></li>
+                                    <li><a href="services.php">Grooming</a></li>
+                                    <li><a href="services.php">Pet Boarding</a></li>
+                                    <li><a href="services.php">Pet Vaccination</a></li>
                                 </ul>
                             </div>
                         </div>
